@@ -12,8 +12,9 @@
 </head>
 <body>
 <c:if test="${error == 'true'}">
-    <div class="alert alert-danger" role="alert">Wrong username or
-        password
+
+    <div class="alert">
+        <strong>Danger!</strong> Wrong username or password
     </div>
 </c:if>
 
@@ -38,7 +39,8 @@
   </div>
   <div class="sub-content">
     <div class="s-part">
-      Don't have an account?<a href="#">Sign up</a>
+      Don't have an account?<a href="${pageContext.request.contextPath}/register" class="text-center">Sign up</a>
+<%--      Don't have an account?<a href="${pageContext.request.contextPath}/auth/register" class="text-center">Sign up</a>--%>
     </div>
   </div>
 </div>

@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="University_QA_Board:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>University_QA_Board</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="University_QA_Board-0.0.1.war">
+      <element id="artifact" artifact-name="University_QA_Board:war exploded" />
+    </root>
+  </artifact>
+</component>

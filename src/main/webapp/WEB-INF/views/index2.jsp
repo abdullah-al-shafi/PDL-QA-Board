@@ -20,8 +20,4 @@
         </button>
     </form:form>
 </li>
-
-<h1>Hello Pondit Members</h1>
-
 </body>
-</html>
